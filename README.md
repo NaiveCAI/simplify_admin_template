@@ -25,13 +25,13 @@ Or install it yourself as:
 //= require jquery2
 //= require jquery_ujs
 //= require bootstrap
-//= require simplify_admin/simplify_admin
+//= require simplify_admin
 
 # Add it in admin.css
 /*
  *=require bootstrap
  *=require font-awesome
- *=require simplify_admin/simplify_admin
+ *=require simplify_admin
 */
 ```
 
