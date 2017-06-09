@@ -1,9 +1,8 @@
 # Simplify::Admin::Rails
-- Remove some charts plugins in simplify\_admin
+- Remove js part of simplify\_admin
 
 ## Installation
-- Boostrap, font-awesome, jQuery-rails are necessary. And require them above the simplify\_admin
-- jQuery <= 2.0 is needed as well. If the version bigger then 2, simplify js will get errors.
+- Boostrap, font-awesome, jQuery-rails are necessary. And require them above the simplify\_admin css
 
 Add this line to your application's Gemfile:
 
@@ -21,12 +20,6 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-# Add it in admin.js
-//= require jquery2
-//= require jquery_ujs
-//= require bootstrap
-//= require simplify_admin
-
 # Add it in admin.css
 /*
  *=require bootstrap
