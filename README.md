@@ -2,14 +2,14 @@
 - Remove js part of simplify\_admin
 
 ## Installation
-- Boostrap, font-awesome, jQuery-rails are necessary. And require them above the simplify\_admin css
+- bootstrap-sass, font-awesome-rails, jQuery-rails are necessary. And require them above the simplify\_admin css
 
 Add this line to your application's Gemfile:
 
 ```ruby
 gem 'simplify-admin-rails'
 gem 'jquery-rails'
-gem 'font-awesome'
+gem 'font-awesome-rails'
 ```
 
 And then execute:
@@ -20,12 +20,12 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-# Add it in admin.css
-/*
- *=require bootstrap
- *=require font-awesome
- *=require simplify_admin
-*/
+# Add it in admin.scss and admin.js
+@import bootstrap
+@import font-awesome
+@import simplify_admin
+
+//= require simplify_admin
 ```
 
 ## License
