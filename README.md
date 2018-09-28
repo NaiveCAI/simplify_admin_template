@@ -17,9 +17,9 @@ gem 'font-awesome-rails'
 ## Usage
 ```javascript
 // Add it in admin.scss and admin.js
-@import bootstrap
-@import font-awesome
-@import simplify_admin
+@import "bootstrap";
+@import "font-awesome";
+@import "simplify_admin";
 
 //= require simplify_admin
 ```
