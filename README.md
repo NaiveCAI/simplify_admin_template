@@ -6,9 +6,10 @@
 
 - Add this line to your application's Gemfile:
 ```ruby
-gem 'simplify-admin-rails'
 gem 'jquery-rails'
+gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'simplify-admin-rails'
 ```
 - Then run: `bundle install`
 - Or install it yourself as: `gem install simplify-admin-rails`
