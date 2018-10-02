@@ -1,0 +1,24 @@
+Description:
+    Generate basic templates of simplify_admin
+
+Usage:
+    rails generate simplify_admin layout [layout_name] [options]
+
+Required Options:
+    title: string
+
+Example:
+    rails generate simplify_admin layout --layout_name admin --options title:test
+
+    This will create
+        app/views/shared/_header.html.slim
+        app/views/shared/_sidebar.html.slim
+        app/controller/dashboard_controller.rb
+
+    This will add those lines in #{layout_name}.css.scss file
+        @import "bootstrap";
+        @import "font-awesome";
+        @import "simplify_admin";
+
+    This will add this line in #{layout_name}.js file
+        //= require simplify_admin
